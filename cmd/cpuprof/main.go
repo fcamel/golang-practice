@@ -1,3 +1,10 @@
+// An example of profiling.
+//
+// $ go build github.com/fcamel/golang-practice/cmd/cpuprof/main.go
+// $ ./main
+// $ go tool pprof -http=0.0.0.0:4321 cpu.prof
+// Then view the graph in the browser.
+
 package main
 
 import (
